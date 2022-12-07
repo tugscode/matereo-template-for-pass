@@ -240,7 +240,7 @@ const RegisterPage = () => {
           </form>
         </CardContent>
       </Card>
-      <FooterIllustrationsV1 />
+      {/* <FooterIllustrationsV1 /> */}
     </Box>
   )
 }

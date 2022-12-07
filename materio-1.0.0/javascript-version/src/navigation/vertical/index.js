@@ -19,6 +19,11 @@ const navigation = () => {
       path: '/'
     },
     {
+      title: 'Passwords',
+      icon: LockOutline,
+      path: '/password'
+    },
+    {
       title: 'Account Settings',
       icon: AccountCogOutline,
       path: '/account-settings'
@@ -43,11 +48,6 @@ const navigation = () => {
       icon: AlertCircleOutline,
       path: '/pages/error',
       openInNewTab: true
-    },
-    {
-      icon: LockOutline,
-      title: 'Passwords',
-      path: '/passwords'
     },
     {
       sectionTitle: 'User Interface'
